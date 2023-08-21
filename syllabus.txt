@@ -1,3 +1,6 @@
+Refer syllabus here: https://drive.google.com/file/d/1Zh_8Ms6pz4on5S7LYkBId-VzlbqdC2Y3/view
+
+
 Module – 1 (WWW, HTML)
 Introduction to the Internet & WWW: Evolution of Internet & World Wide Web- Web Basics,
 URI’s & URL-MIME.
@@ -37,4 +40,5 @@ JSON Data Interchange Format: Syntax, Data Types, Object, JSON Schema, Manipulat
 JSON data with PHP
 Web Development Frameworks: Laravel Overview-Features of Laravel-Setting up a Laravel
 Development Environment-Application structure of Laravel-Routing -Middleware-Controllers-
-Route Model Binding-Views-Redirections-Request and Responses.
+Route Model Binding-Views-Redirections-Request and Responses.  
+
