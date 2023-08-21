@@ -1,4 +1,4 @@
-# elective-2  
+# Elective-2  
 
 ### Repo for updating  simple notes for web Programming - Elective 2 Ktu Syllabus  
 
