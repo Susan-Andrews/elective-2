@@ -1,4 +1,4 @@
-Refer syllabus here: https://drive.google.com/file/d/1Zh_8Ms6pz4on5S7LYkBId-VzlbqdC2Y3/view
+Refer syllabus here: [KTU NOTES](https://drive.google.com/file/d/1Zh_8Ms6pz4on5S7LYkBId-VzlbqdC2Y3/view)
 
 
 Module – 1 (WWW, HTML)
