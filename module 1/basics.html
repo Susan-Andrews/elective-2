@@ -21,6 +21,7 @@
 
     <h1 style="font-size:60px;">Heading 1 using style attribute</h1>
 
+    <!------------------------------------------------------------------------------------------------------------------------>
 
     <!-- HYPERLINKS -->
     <a href="https://www.w3schools.com/html/html_links.asp">link text</a>
@@ -36,21 +37,167 @@
 
     <!-- IMAGES - ADDING AN IMAGE AND GIVING HYPERLINKS -->
     <br><br>
-    <a href="https://in.pinterest.com/whosthatmiata/mclaren-senna/"> <img  style="width: 900px;height: 400px;" src="https://www.financialexpress.com/wp-content/uploads/2022/10/McLaren-Senna-LM-Paris-Motor-Show-2022.jpg" alt="senna"> </a>
+    <a href="https://in.pinterest.com/whosthatmiata/mclaren-senna/"> <img style="width: 900px;height: 400px;"
+            src="https://www.financialexpress.com/wp-content/uploads/2022/10/McLaren-Senna-LM-Paris-Motor-Show-2022.jpg"
+            alt="senna"> </a>
     <br>
-    
+
     <!-- Use mailto: inside the href attribute to create a link that opens the user's email program (to let them send a new email): -->
     <br>
     <a href="mailto:someone@example.com">Send email</a>
+    <br>
+
+    <!------------------------------------------------------------------------------------------------------------------------>
 
 
-    <!-- SPECIAL CHARACTERS -->
+    <!-- SPECIAL CHARACTERS - HTML SYMBOL ENTITIES-->
+    <!-- HTML entities were described in the previous chapter.Many mathematical, technical, and currency symbols, are not
+    present on a normal keyboard.To add such symbols to an HTML page, you can use the entity name or the entity number
+    (a decimal or a hexadecimal reference) for the symbol. -->
+    <p>I will display &euro; - euro</p>
+    <p>I will display &forall; - forall</p>
+    <p>I will display &exist; - their exists</p>
+    <p>I will display &Alpha; - alpha</p>
+    <p>I will display &larr; - left arrow</p>
+    <p>I will display &#x2605; - star</p>
+    <p>I will display &copy; - copyrght</p>
+
+    <!------------------------------------------------------------------------------------------------------------------------>
+
     <!-- HORIZONTAL RULES -->
+
+    <h1>The Main Languages of the Web</h1>
+    <p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and
+        consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+    <hr>
+
+    <p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS
+        saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+    <hr>
+
+    <p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute
+        values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+    <!-- style it with css      -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sunt omnis quae consequatur quasi? Quo magnam
+        quod assumenda fugiat quam, impedit quidem repellat corrupti, dicta ipsum saepe delectus veniam hic.</p>
+    <hr style="width:50%;text-align:left;margin-left:0">
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sunt omnis quae consequatur quasi? Quo magnam
+        quod assumenda fugiat quam, impedit quidem repellat corrupti, dicta ipsum saepe delectus veniam hic.</p>
+
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sunt omnis quae consequatur quasi? Quo magnam
+        quod assumenda fugiat quam, impedit quidem repellat corrupti, dicta ipsum saepe delectus veniam hic.</p>
+
+    <hr style="height:30px">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sunt omnis quae consequatur quasi? Quo magnam
+        quod assumenda fugiat quam, impedit quidem repellat corrupti, dicta ipsum saepe delectus veniam hic.</p>
+
+    <hr style="width:50%">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sunt omnis quae consequatur quasi? Quo magnam
+        quod assumenda fugiat quam, impedit quidem repellat corrupti, dicta ipsum saepe delectus veniam hic.</p>
+
+    <!------------------------------------------------------------------------------------------------------------------------>
+
     <!-- LINE BREAK -->
+    <!-- The <br> tag inserts a single line break.
+    The <br> tag is useful for writing addresses or poems.
+    The <br> tag is an empty tag which means that it has no end tag. -->
+
+
+    <h1>The br element</h1>
+    <p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
+
+    <!-- em tag  with br tag-->
+    <h3>poem</h3>
+    <p>Be not afraid of greatness.<br>
+        Some are born great,<br>
+        some achieve greatness,<br>
+        and others have greatness thrust upon them.</p>
+
+    <p><em>-William Shakespeare</em></p>
+
+
+
     <!-- LISTS -->
     <!-- TABLES -->
+
+
+    <table>
+        <caption>Monthly savings</caption>
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$50</td>
+        </tr>
+    </table>
     <!-- FORMS -->
     <!-- INTERNAL LINKING -->
+
+    <!-- MISCELLANEOUS -->
+
+
+    <!-- EM TAG  -->
+    <!-- The <em> tag is used to define emphasized text. The content inside is typically displayed in italic.
+    A screen reader will pronounce the words in <em> with an emphasis, using verbal stress. -->
+
+    <p>You <em>have</em> to hurry up!</p>
+    <p>We <em>cannot</em> live like this.</p>
+
+    <!-- FIGCAPTION ELEMENT -->
+    <!-- The <figcaption> tag defines a caption for a <figure> element.
+    The <figcaption> element can be placed as the first or last child of the <figure> element. -->
+
+    <h1>The figure and figcaption element</h1>
+    <figure>
+        <img src="https://i.ytimg.com/vi/WmTVSFkDzRk/maxresdefault.jpg" alt="SPIDER"
+            style="width: 900px;height: 400px;">
+        <figcaption>Fig.1 - MCLREN SPIDER</figcaption>
+    </figure>
+
+    <!-- STRONG  -->
+    <!-- Define important text in a document: -->
+    <P><strong>This text is important!</strong> IN THIS PARAGRAPH</P>
+
+    <!-- SUPERSCRIPT -->
+    <!-- The <sup> tag defines superscript text. Superscript text appears half a character above the normal line, and is
+        sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW[1]. -->
+    <p>This text contains X <sup>2</sup> text.</p>
+
+    <!-- SUBSCRIPT     -->
+    <p>This text contains <sub>subscript</sub> text.</p>
+
+    <!-- TEXTAREA -->
+    <textarea rows="4" cols="50" placeholder="ADD YOUR TEXT HERE">
+    </textarea>
+    <!-- SPAN -->
+    <!-- The <span> tag is an inline container used to mark up a part of a text, or a part of a document.
+    The <span> tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute.
+    The <span> tag is much like the <div> element, but <div> is a block-level element and <span> is an inline element. -->
+
+    <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+
+    <!-- SECTION -->
+    <!-- The <section> tag defines a section in a document. -->
+    <section>
+        <h2>WWF History</h2>
+        <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+      </section>
+      
+      <section>
+        <h2>WWF's Symbol</h2>
+        <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+      </section>
+      
 </body>
 
 </html>
