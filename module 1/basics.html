@@ -140,8 +140,125 @@
             <td>$50</td>
         </tr>
     </table>
-    <!-- FORMS -->
+    <!-- FORMS --> 
+
+    <h2>Registration form</h2>  
+    <form>  
+     <fieldset>  
+        <legend>User personal information</legend>  
+        <label>Enter your full name</label><br>  
+        <input type="text" name="name"><br>  
+         <label>Enter your email</label><br>  
+         <input type="email" name="email"><br>  
+         <label>Enter your password</label><br>  
+         <input type="password" name="pass"><br>  
+         <label>confirm your password</label><br>  
+         <input type="password" name="pass"><br>  
+         <br><label>Enter your gender</label><br>  
+         <input type="radio" id="gender" name="gender" value="male"/>Male  <br>  
+         <input type="radio" id="gender" name="gender" value="female"/>Female <br/>    
+         <input type="radio" id="gender" name="gender" value="others"/>others <br/>   
+          <br>Enter your Address:<br>  
+         <textarea></textarea><br>  
+         <input type="submit" value="sign-up">  
+     </fieldset>  
+  </form>  
+
+    <!-- 
+        <input type="text">	    Displays a single-line text input field
+        <input type="radio">	Displays a radio button (for selecting one of many choices)
+        <input type="checkbox">	Displays a checkbox (for selecting zero or more of many choices)
+        <input type="submit">	Displays a submit button (for submitting the form)
+        <input type="button">	Displays a clickable button 
+    -->
+
+    <!--
+        The <label> tag defines a label for many form elements.
+        The <label> element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focuses on the input element.
+        The <label> element also helps users who have difficulty clicking on very small regions (such as radio buttons or checkboxes) - because when the user clicks the text within the <label> element, it toggles the radio button/checkbox.
+        The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together.
+
+    -->
+
+    <!-- 
+        NAME OF EACH RADIO BUTTON MUST BE EQUAL ONLY THEN ONE OPTION IS SELECTED
+        Radio buttons let a user select ONE of a limited number of choices.
+
+        Checkboxes let a user select ZERO or MORE options of a limited number of choices.
+
+    -->
+        <h3>Radio button</h3>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>  
+
+        <h3>Checkboxes</h3>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
+
+        <h3>Dropdown</h3>
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+        </select>
+
+    <!--
+        FORM ELEMENTS 
+        <input>
+        <label>
+        <select>
+        <textarea>
+        <button>
+        <fieldset>
+        <legend>
+        <datalist>
+        <output>
+        <option>
+        <optgroup>
+
+    -->    
+
+    <!-- 
+        INPUT TYPES
+        <input type="button">
+        <input type="checkbox">
+        <input type="color">
+        <input type="date">
+        <input type="datetime-local">
+        <input type="email">
+        <input type="file">
+        <input type="hidden">
+        <input type="image">
+        <input type="month">
+        <input type="number">
+        <input type="password">
+        <input type="radio">
+        <input type="range">
+        <input type="reset">
+        <input type="search">
+        <input type="submit">
+        <input type="tel">
+        <input type="text">
+        <input type="time">
+        <input type="url">
+        <input type="week">
+    -->
+    
     <!-- INTERNAL LINKING -->
+
+
+
+    <!------------------------------------------------------------------------------------------------------------------------>
 
     <!-- MISCELLANEOUS -->
 
