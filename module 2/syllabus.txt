@@ -1,0 +1,12 @@
+Module -2 (CSS, JavaScript)
+
+Introduction to Stylesheets : Introduction to CSS-Basic syntax and structure-Inline Styles,
+Embedded Style Sheets, Conflict Resolution, Linking External Style Sheets-Exploring CSS
+Selectors-Properties, values, Positioning Elements: Absolute Positioning, Relative Positioning -
+Backgrounds-List Styles-Element Dimensions- Table Layouts-Box Model and Text Flow-div and
+span -Basics of Responsive CSS, Media port & Media Queries.
+
+
+Introduction to JavaScript : Introduction to Scripting- Programming fundamentals of JavaScript
+-Obtaining User Input with prompt Dialogs-Arithmetic-Decision Making -Control Statements -
+Functions -Arrays -Objects -Document Object Model (DOM) -Form processing
