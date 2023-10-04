@@ -38,4 +38,47 @@
     selector:pseudo-class {
   property: value;
 }
-```    
+```  
+
+```css
+   
+/* unvisited link */
+a:link {
+  color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+  color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+  color: #0000FF;
+} 
+
+
+```  
+
+```css
+a.highlight:hover {
+  color: #ff0000;
+}
+
+div:hover {
+  background-color: blue;
+}
+```
+- The :first-child pseudo-class matches a specified element that is the first child of another element. 
+```css
+    Match the first <i> element in all <p> elements 
+    p i:first-child {
+    color: blue;
+}
+
+```
