@@ -1,0 +1,6 @@
+Module- 3 (PHP Basics)
+
+PHP Language Structure: Introduction- Building blocks of PHP-Variables, Data Types -simple
+PHP program-Converting between Data Types- Operators and Expressions -Flow Control
+functions - Control statements- Working with Functions- Initialising and Manipulating Arrays--
+Objects- String Comparisons-String processing with Regular Expression
