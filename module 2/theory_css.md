@@ -1,6 +1,6 @@
 ## CSS Syntax  
 
-![syntax](image.png)  
+![syntax](syntax.png)  
 
 
 #### since we are modifying paragraph we are using  `<p>` tag , we can do the same by using class and id values ( .name , #name resp.)  
