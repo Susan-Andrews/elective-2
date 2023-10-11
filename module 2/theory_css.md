@@ -1,29 +1,29 @@
 ## CSS Syntax  
 
-![syntax](syntax.png)  
+![syntax](output_ss/syntax.png)  
 
 
 #### since we are modifying paragraph we are using  `<p>` tag , we can do the same by using class and id values ( .name , #name resp.)  
 
 ### Css element selector  
 
-![Alt text](image-1.png)  
+![Alt text](element.png)  
 
 ### Css id selector  
 
-![Alt text](image-2.png)  
+![Alt text](id.png)  
 
 ### Css class selector  
 
-![Alt text](image-3.png)  
+![Alt text](class.png)  
 
 ### Css universal selector  
 
-![Alt text](image-4.png)  
+![Alt text](universal.png)  
 
 ### Css grouping selector  
 
-![Alt text](image-5.png)  
+![Alt text](combination.png)  
 
 ### NOTE  
 
