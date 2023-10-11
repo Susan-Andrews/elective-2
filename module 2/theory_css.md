@@ -7,23 +7,23 @@
 
 ### Css element selector  
 
-![Alt text](element.png)  
+![Alt text](output_ss/element.png)  
 
 ### Css id selector  
 
-![Alt text](id.png)  
+![Alt text](output_ss/id.png)  
 
 ### Css class selector  
 
-![Alt text](class.png)  
+![Alt text](output_ss/class.png)  
 
 ### Css universal selector  
 
-![Alt text](universal.png)  
+![Alt text](output_ss/universal.png)  
 
 ### Css grouping selector  
 
-![Alt text](combination.png)  
+![Alt text](output_ss/combination.png)  
 
 ### NOTE  
 
