@@ -1,4 +1,4 @@
-#### Intro
+## Intro
 
 `Use w3 php server :` [w3 ](https://www.w3schools.com/php/phptryit.asp?filename=tryphp_syntax )
 - PHP is an acronym for "PHP: Hypertext Preprocessor"
@@ -18,7 +18,7 @@
 - A PHP script can be placed anywhere in the document.
 - A PHP script starts with <?php and ends with ?>
 
-###### Syntax
+##### Syntax
 
 ```php
 <?php
