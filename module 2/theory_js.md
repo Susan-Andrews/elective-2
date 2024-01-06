@@ -1,7 +1,7 @@
 W3-Schools
 
 
-javascript functions
+### javascript functions
 ```bash
 <script>
 function myFunction(p1, p2) {
@@ -44,4 +44,37 @@ function test_prime(n) {
 
 // Log the result of calling test_prime with the input number 37 to the console
 console.log(test_prime(37));
+```
+### javascript arrays
+initialisation 
+```bash
+//direct declaration of values
+const cars = ["mercedes", "nissan", "BMW"];
+
+//empty array then adding values
+const cars = [];
+cars[0]= "Saab";
+cars[1]= "Volvo";
+cars[2]= "BMW";
+
+//using new keyword
+const cars = new Array("mercedes", "mclaren", "BMW");
+```
+
+accessing elements
+
+```bash
+//using index number
+const cars = ["suzuki", "honda", "BMW"];
+let car = cars[0];
+
+//changing a value
+
+const cars = ["mercedes", "skoda", "BMW"];
+cars[0] = "hyundai";
+
+//length
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let length = fruits.length;
+
 ```
