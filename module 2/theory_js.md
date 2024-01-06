@@ -59,6 +59,10 @@ cars[2]= "BMW";
 
 //using new keyword
 const cars = new Array("mercedes", "mclaren", "BMW");
+
+//using new Array()
+const points = new Array();
+const points = new Array(40, 100, 1, 5, 25, 10);
 ```
 
 accessing elements
@@ -76,5 +80,30 @@ cars[0] = "hyundai";
 //length
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let length = fruits.length;
+
+//looping through array
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let text = "<ul>";
+fruits.forEach(myFunction);
+text += "</ul>";
+
+function myFunction(value) {
+  text += "<li>" + value + "</li>";
+}
+```
+
+### Associative arrays
+- Arrays with named indexes are called associative arrays (or hashes).
+- JavaScript does not support arrays with named indexes.
+- In JavaScript, arrays always use numbered indexes.
+
+- 
+```bash
+const person = [];
+person[0] = "John";
+person[1] = "Doe";
+person[2] = 46;
+person.length;    // Will return 3
+person[0];        // Will return "John"
 
 ```
